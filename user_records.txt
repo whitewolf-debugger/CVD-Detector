@@ -1,0 +1,10 @@
+'GenHealth','Age','Difficultyinwalk','HighBP','Stroke','PhysHealth','Diabetes','High_chols','Smoker','Prediction'
+'Ritabrata', 1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+'Ritabrata', 1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+'Ritabrata', 1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+'Ritabrata', 1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+'Ritabrata', 1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+'Pankaj', 1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+'', 1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+'Ritabrata', 4, 1, 0, 1, 1, 0, 0, 0, 0, 0
+'Ritabrata', 4, 1, 0, 1, 1, 29, 1, 1, 1, 1
