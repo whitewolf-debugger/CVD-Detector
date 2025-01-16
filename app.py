@@ -31,7 +31,7 @@ from keras.layers import Dense, Input, Bidirectional, LayerNormalization
 from tensorflow.keras.layers import Dense, Dropout, BatchNormalization, Input, Reshape
 from keras.optimizers import Adam
 from keras import losses
-
+import gc
 #---------------Model load and setup part , don't touch : Ritabrata ------------------#
 from keras.src import activations
 from keras.src import backend
@@ -436,7 +436,7 @@ if __name__ == '__main__':
             else:
                 st.write('__You may not have heart disease.__')
                 #st.write('Accuracy:',round(test_data_accuracy,3),'%')
-                
+            gc.collect()
 
             def generate_report(Name, input_data, prediction):
                 buffer = BytesIO()
@@ -498,7 +498,7 @@ if __name__ == '__main__':
 
             # Streamlit Display
             st.markdown(download_link, unsafe_allow_html=True)
-           
+            gc.collect()
 
     if selected == "Our Prediction Records":
         st.markdown("<h3 style='text-align: center;'>PREDICTION RECORDS OF OUR PREVIOUS USERS</h1>", unsafe_allow_html=True)
