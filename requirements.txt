@@ -7,4 +7,3 @@ streamlit-option-menu
 tensorflow
 keras
 reportlab
-gc
